@@ -1,5 +1,6 @@
 grpc:
   client:
+    port: 9090
     local-grpc-server:
       address: 'static://${SERVER_APP}:9090'
       enableKeepAlive: true
