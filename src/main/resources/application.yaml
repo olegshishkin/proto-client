@@ -1,0 +1,7 @@
+grpc:
+  client:
+    local-grpc-server:
+      address: 'dns:///grpc-server'
+      enableKeepAlive: true
+      keepAliveWithoutCalls: true
+      negotiationType: plaintext
