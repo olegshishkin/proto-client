@@ -1,7 +1,7 @@
 grpc:
   client:
     local-grpc-server:
-      address: 'dns:///grpc-server'
+      address: 'dns:///${SERVER_APP}'
       enableKeepAlive: true
       keepAliveWithoutCalls: true
       negotiationType: plaintext
